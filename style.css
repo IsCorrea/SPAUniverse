@@ -1,0 +1,78 @@
+:root {
+  font-size: 62.5%;
+  --nav-color-active: #FFFFFF;
+  --nav-color: #C4C4CC;
+  --body-color: #E1E1E6;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(/assets/bg-home.png) no-repeat center center fixed;
+  background-size: cover;
+
+  font-family: 'Roboto', sans-serif;
+  color: var(--body-color);
+}
+
+nav {
+  font-weight: 400;
+  font-size: 2.17rem;
+  line-height: 2.2rem;
+  color: var(--nav-color);
+
+  display: flex;
+  gap: 3.2rem;
+  align-items: center;
+
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-left: 7.2rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--nav-color);
+}
+
+
+div {
+  margin-top: 6.3rem;
+  margin-left: 10.2rem;
+  margin-right: 5rem;
+  color: var(--body-color);
+}
+
+div h1 {
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 125%;
+  margin-bottom: 1.6rem;
+}
+
+div p {
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 160%;
+
+  max-width: 64.8rem;
+}
+
+div button {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  text-transform: uppercase;
+
+  width: 19.5rem;
+  height: 4.8rem;
+  background-color: transparent;
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+  cursor: pointer;
+}
